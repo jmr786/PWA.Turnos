@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
-# Descripción
+### Descripción
 
 PWA para que un empleado sepa el turno de trabajo planificado en 1 mes.
 
