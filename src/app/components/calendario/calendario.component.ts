@@ -22,7 +22,7 @@ export class CalendarioComponent implements OnInit {
   ];
 
 
-  monthSelect!: any[];
+  monthSelect:any =28
   dateSelect: any;
   dateValue: any;
 
@@ -39,7 +39,7 @@ export class CalendarioComponent implements OnInit {
 
     const startDate = moment.utc(`${year}/${month}/01`)
     const endDate = startDate.clone().endOf('month')
-    this.dateSelect = startDate;
+    this.dateSelect = "ENERO";
 
     const diffDays = endDate.diff(startDate, 'days', true)
     const numberDays = Math.round(diffDays);
@@ -54,7 +54,7 @@ export class CalendarioComponent implements OnInit {
       };
     });
 
-    this.monthSelect = arrayDays;
+  
   }
 
   changeMonth(flag:any) {
