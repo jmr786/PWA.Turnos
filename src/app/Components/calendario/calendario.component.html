@@ -1,0 +1,31 @@
+<div>
+
+
+<h1>I miei turni</h1>
+
+      <div class="month">
+        <ul>
+          <li class="prev"><</li>
+          <li class="next">></li>
+          <li>
+            {{nombreMes}}
+           
+          </li>
+        </ul>
+      </div>
+
+      <ul class="weekdays">
+        
+           
+            <li *ngFor="let dia of dias" >{{dia}}</li>
+          
+       
+      </ul>
+
+      <ul class="days">
+        
+
+           <li *ngFor="let numDia of arrDias">{{numDia}}</li>
+          
+      </ul>
+ </div>
