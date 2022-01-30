@@ -3,7 +3,7 @@ ul {list-style-type: none;}
 body {font-family: Verdana, sans-serif;}
 
 .month {
-  padding: 30px 25px;
+  padding: 50px 25px;
   width: 100%;
   background: #c43175;
   text-align: center;
@@ -66,6 +66,31 @@ body {font-family: Verdana, sans-serif;}
 
 .days li .active {
   padding: 5px;
-  background: #1abc9c;
-  color: white !important
+  border: 1px solid red;
+  border-radius: 10px
+  
+}
+.days li .manana{
+  padding: 5px;
+  background-color: lightblue;
+  border-radius: 10px
+  
+}
+.days li .mediodia{
+  padding: 5px;
+  background-color: yellow;
+  border-radius: 10px
+  
+}
+.days li .tarde{
+  padding: 5px;
+  background-color:sandybrown;
+  border-radius: 10px
+  
+}
+.days li .noche{
+  padding: 5px;
+  background-color:greenyellow;
+  border-radius: 10px
+  
 }
